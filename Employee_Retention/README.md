@@ -16,6 +16,7 @@ Predictive Modeling: Construct a logistic regression model using impactful varia
 Model Evaluation: Measure the accuracy and predictive capability of the logistic regression model.
 
 **Methodology**
+
 Data Loading and Initial Inspection: Loaded employee HR data from a CSV file into a pandas DataFrame.
 
 Data Cleaning: Checked for and handled null values and duplicate rows to ensure data integrity. Duplicate rows were identified and removed.
