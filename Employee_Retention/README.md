@@ -1,10 +1,10 @@
-Employee Retention Analysis
+**Employee Retention Analysis**
 
-Project Overview
+**Project Overview**
 
 This project focuses on analyzing employee data to understand and predict employee retention. It involves conducting exploratory data analysis (EDA) to identify key variables that influence whether employees leave or stay with the company. Visual insights are generated to illustrate the impact of factors such as employee salaries and department affiliations on retention rates. Finally, a logistic regression model is constructed using the identified impactful variables, and its predictive capability regarding employee turnover is assessed.
 
-Project Objectives
+**Project Objectives**
 The primary objectives of this project are:
 
 Data Exploration: Conduct exploratory data analysis to identify key variables impacting employee retention.
@@ -15,7 +15,7 @@ Predictive Modeling: Construct a logistic regression model using impactful varia
 
 Model Evaluation: Measure the accuracy and predictive capability of the logistic regression model.
 
-Methodology
+**Methodology**
 Data Loading and Initial Inspection: Loaded employee HR data from a CSV file into a pandas DataFrame.
 
 Data Cleaning: Checked for and handled null values and duplicate rows to ensure data integrity. Duplicate rows were identified and removed.
@@ -34,7 +34,7 @@ Explored retention rates across different departments.
 
 Feature Engineering: Categorical variables ('salary' and 'Department') were one-hot encoded to prepare the data for modeling.
 
-Model Building (Logistic Regression)
+**Model Building (Logistic Regression)**
 
 The dataset was split into training and testing sets.
 
@@ -42,7 +42,7 @@ A Logistic Regression model was initialized and trained on the preprocessed data
 
 Model Evaluation: The model's performance was assessed using accuracy score, confusion matrix, classification report, and ROC-AUC score.
 
-Key Findings and Insights
+**Key Findings and Insights**
 
 Satisfaction Level: Employees who left had significantly lower average satisfaction levels compared to those who stayed, highlighting satisfaction as a critical retention factor.
 
@@ -56,7 +56,7 @@ Promotion: Employees who received promotions in the last five years had a much h
 
 Department: Retention rates varied significantly across departments, with Sales, Technical, and Support departments showing higher turnover compared to Management and RandD.
 
-Model Performance
+**Model Performance**
 The Logistic Regression model achieved an accuracy of approximately 79.21%.
 
 Classification Report:
