@@ -1,4 +1,5 @@
 #Employee Retention Analysis
+
 ##Project Overview
 This project focuses on analyzing employee data to understand and predict employee retention. It involves conducting exploratory data analysis (EDA) to identify key variables that influence whether employees leave or stay with the company. Visual insights are generated to illustrate the impact of factors such as employee salaries and department affiliations on retention rates. Finally, a logistic regression model is constructed using the identified impactful variables, and its predictive capability regarding employee turnover is assessed.
 
@@ -9,6 +10,7 @@ Data Exploration: Conduct exploratory data analysis to identify key variables im
 Visual Insights: Generate visual insights through bar charts illustrating the influence of employee salaries and department affiliations on retention rates.
 Predictive Modeling: Construct a logistic regression model using impactful variables to predict employee turnover.
 Model Evaluation: Measure the accuracy and predictive capability of the logistic regression model.
+
 ##Methodology
 Data Loading and Initial Inspection: Loaded employee HR data from a CSV file into a pandas DataFrame.
 Data Cleaning: Checked for and handled null values and duplicate rows to ensure data integrity. Duplicate rows were identified and removed.
@@ -23,6 +25,7 @@ Model Building (Logistic Regression):
 The dataset was split into training and testing sets.
 A Logistic Regression model was initialized and trained on the preprocessed data.
 Model Evaluation: The model's performance was assessed using accuracy score, confusion matrix, classification report, and ROC-AUC score.
+
 ##Key Findings and Insights
 Satisfaction Level: Employees who left had significantly lower average satisfaction levels compared to those who stayed, highlighting satisfaction as a critical retention factor.
 Average Monthly Hours: Employees who left tended to work slightly more hours on average, suggesting potential burnout or workload issues.
@@ -30,6 +33,7 @@ Time Spent in Company: Employees who left had spent a slightly longer average ti
 Salary Level: A strong inverse correlation was observed, where employees with lower salaries were significantly more likely to leave, while those with high salaries showed strong retention.
 Promotion: Employees who received promotions in the last five years had a much higher retention rate.
 Department: Retention rates varied significantly across departments, with Sales, Technical, and Support departments showing higher turnover compared to Management and RandD.
+
 ##Model Performance
 The Logistic Regression model achieved an accuracy of approximately 79.21%.
 
